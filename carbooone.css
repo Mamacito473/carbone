@@ -3039,4 +3039,91 @@ margin-top: 5px;
 background: none;
 padding: 0px!important;
 }
-	
+
+/* Conteneur principal */
+div.box .torrents_container {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  width: 100% !important;
+  height: 285px !important;
+  position: relative !important;
+  margin-bottom: 15px !important;
+  padding: 10px !important;
+  background-color: rgba(100, 100, 100, 0.15) !important;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Contenu des torrents */
+div.box .torrents_container .torrents_content {
+  display: flex !important;
+  white-space: nowrap !important;
+  gap: 10px !important;
+  padding: 10px !important;
+}
+
+/* Conteneurs des onglets */
+div.box #latestTorrents,
+div.box #popularTorrents {
+  display: none !important;
+}
+
+div.box #latestTorrents.active,
+div.box #popularTorrents.active {
+  display: block !important;
+}
+
+/* Ligne de torrents */
+div.box .torrent_table tr.torrent.row {
+  display: flex !important;
+  gap: 10px !important;
+  padding: 10px !important;
+}
+
+/* Colonnes de catégories */
+div.box .torrent_table td.center.cats_col {
+  flex: 0 0 auto !important;
+  width: auto !important;
+  margin-right: 10px !important;
+  float: none !important; /* Pour éviter les conflits avec d'autres règles float */
+  display: inline-block !important;
+}
+
+/* Images des groupes */
+div.box .torrent_table .group_image {
+  width: 100px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* En-tête */
+div.box .head2.head.center {
+  margin: -10px -10px 10px -10px !important;
+  padding: 8px 10px !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1d1d), to(#191919)) !important;
+  background-image: linear-gradient(to bottom, #1d1d1d, #191919) !important;
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5) !important;
+  font-weight: bold !important;
+}
+
+/* Liens de l'en-tête */
+div.box .head2.head.center a {
+  color: #9A9A9A !important;
+  text-decoration: none !important;
+}
+
+div.box .head2.head.center a.active {
+  color: #528ba3 !important;
+}
+
+/* Force le comportement de la table */
+div.box .torrent_table {
+  display: block !important;
+  width: auto !important;
+  white-space: nowrap !important;
+}
+
+div.box .torrent_table tbody {
+  display: flex !important;
+  gap: 10px !important;
+}
