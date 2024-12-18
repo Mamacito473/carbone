@@ -128,11 +128,6 @@ p.min_padding, .friends_table td.left input[type="submit"]:first-child {
   margin-top: 3px;
 }
 
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
 ol, ul {
   list-style-position: inside;
 }
@@ -414,9 +409,6 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
   background-color: transparent;
 }
 
-#better .torrent_table .torrent_info, #better .torrent_table .tags {
-  margin-left: 30px;
-}
 
 #bookmarks .torrent_table .colhead_dark td:first-child {
   width: 5%;
@@ -684,9 +676,6 @@ background-color: rgba(80, 80, 80, 0.3);
   max-width: 805px;
 }
 
-#forums #quickreplytext br, #torrents .edit_form br, #rules li[id="r2.2.0"] img, #rules li[id="r2.2.0"] em, .sidebar .box.box_addtag br, #collage form#quickpostform.send_form br, #quickreplytext br, .add_torrent_container .add_form br, .user_title br, .main_column div#coverart + br, #upload .thin > p br, #upload #content > .box.pad + br, #rules .thin > .box.pad + br, #rules .header + br, #rules form + br, .main_column .linkbox + br, #quickpost h3 + input + br, #threadpoll.pad br, #staffpm .thin > br, #staff .box.pad br, #staff .thin > br, #blog div + br, #staffpm #messageform.manage_form br, #bookmarks .group.discog td > span > br, .sticky_post_label, .send_form > .box.pad > br, #recommendation_status br {
-  display: block;
-}
 
 #forums pre {
   max-width: 700px;
@@ -1684,11 +1673,6 @@ tr:first-child td {
   border-top: none;
 }
 
-td {
-  padding: 7px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
 
 tr:last-child td, tr.group:last-child td {
   border-bottom: none;
@@ -1877,9 +1861,6 @@ li.graph .center_poll {
   color: #9A9A9A;
 }
 
-.cats_col, .group.discog td.center:nth-child(2) {
-  width: 25px;
-}
 
 .cats_music, .cats_comics, .cats_audiobooks, .cats_elearningvideos, .cats_comedy, .cats_applications, .cats_ebooks {
   margin: 0 !important;
@@ -2316,24 +2297,11 @@ li.graph .center_poll {
   padding-right: 25px;
 }
 
-/* AAD Fix */
-.group_image + .group_info {
-  margin: 0;
-  padding: 0 5px;
-  display: table-cell;
-  vertical-align: middle;
-  height: 79px;
-  width: 550px;
-}
 
 #artist .group_image + .group_info {
   width: 595px;
 }
 
-.group_image.float_left.clear img {
-  height: auto;
-  width: 117px;
-}
 /*
 .group_image.float_left.clear img, #userhistory .torrent_table.grouped.artwork tr.group.discog td[style="width: 60px; padding: 0;"] img, #user .layout.recent a > img {
   border: 2px solid #3b3b3b !important;
