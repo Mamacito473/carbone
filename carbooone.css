@@ -22,6 +22,11 @@
   padding: 0;
 }
 
+.box .head2.head.center + .torrents_container .torrent_table tr {
+  display: flex !important;
+  gap: 90px;
+  width: 100%;
+}
 
 /* Conteneur principal */
 div.box .torrents_container {
