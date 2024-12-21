@@ -3039,9 +3039,3 @@ marquee {
   background: none;
   padding: 0px!important;
 }
-
-.box .head2.head.center + .torrents_container .torrent_table tr {
-  display: flex !important;
-  gap: 90px;
-  width: 100%;
-}
